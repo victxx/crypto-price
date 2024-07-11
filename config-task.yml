@@ -2,7 +2,7 @@
 task_name: 'Crypto Price Monitor'
 author: 'wic'
 description: 'Tracks cryptocurrency prices and stores them on Koii Network'
-repositoryUrl: 'https://github.com/'
+repositoryUrl: 'https://github.com/victxx/crypto-price'
 imageUrl: 'https://i.postimg.cc/x1mSVPXT/DALL-E-2024-07-11-14-14-30-A-sleek-and-modern-digital-interface-showing-real-time-cryptocurrency-p.jpg'
 
 # Red donde se ejecutará la tarea: DEVELOPMENT, ARWEAVE o IPFS
