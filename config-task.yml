@@ -1,0 +1,46 @@
+# Nombre y metadatos de tu tarea
+task_name: 'Crypto Price Monitor'
+author: 'wic'
+description: 'Tracks cryptocurrency prices and stores them on Koii Network'
+repositoryUrl: 'https://github.com/'
+imageUrl: 'https://i.postimg.cc/x1mSVPXT/DALL-E-2024-07-11-14-14-30-A-sleek-and-modern-digital-interface-showing-real-time-cryptocurrency-p.jpg'
+
+# Red donde se ejecutará la tarea: DEVELOPMENT, ARWEAVE o IPFS
+task_executable_network: 'IPFS'
+
+# Programa de auditoría de tareas: Ruta a tu archivo webpack si la red seleccionada es IPFS y en caso de DEVELOPMENT nómbralo como main
+task_audit_program: 'dist/main.js'
+
+# Duración total de tu tarea, medida en slots (cada slot es aproximadamente igual a 408 ms)
+round_time: 750
+audit_window: 150
+submission_window: 150
+
+# Cantidad mínima de KOII que un usuario debe apostar para participar en la tarea
+minimum_stake_amount: 1.0
+
+# La cantidad total de recompensas no puede ser menor que la cantidad de recompensas por ronda
+total_bounty_amount: 10
+bounty_amount_per_round: 0.05
+
+# Número de veces que se permite la reenvío en caso de una auditoría.
+allowed_failed_distributions: 3
+
+# Espacio en MB para el tamaño de la cuenta, que contiene los datos de la tarea.
+space: 1
+
+# Etiquetas de requisitos opcionales para la tarea
+requirementsTags:
+  - type: CPU
+    value: '2-core'
+    description: 'CPU necesaria para la tarea'
+  - type: RAM
+    value: '2 GB'
+    description: 'RAM necesaria para la tarea'
+  - type: STORAGE
+    value: '1 GB'
+    description: 'Almacenamiento necesario para la tarea'
+
+# Variables opcionales para crear una tarea / Variables requeridas para actualizar una tarea
+task_id: ''
+migrationDescription: ''
