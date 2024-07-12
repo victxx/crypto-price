@@ -42,5 +42,5 @@ requirementsTags:
     description: 'Almacenamiento necesario para la tarea'
 
 # Variables opcionales para crear una tarea / Variables requeridas para actualizar una tarea
-task_id: ''
-migrationDescription: ''
+task_id: '8THMtYjxCVd2wTNTiBKfwQJ9YjqsDkj9oZTddib5z9kU'
+migrationDescription: 'Initial deployment of the Crypto Price Monitor task'
